@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    margin: 0;
+}
+
+#main {
+    background-color: rgb(230, 222, 222);
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#title {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#img-div {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#image {
+    width: 80%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin-top: 10px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 60px;
+}
+
+#tribute-info {
+    width: 600px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+.quote {
+    width: 600px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+.lastline {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+
+    #tribute-info{
+        width: 350px;
+    }
+
+    .quote{ 
+        width: 350px;
+
+    }
+   
+  }
